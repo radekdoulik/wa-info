@@ -28,8 +28,8 @@ namespace WebAssemblyInfo
             if (files.Count != 2)
             {
                 Console.WriteLine("Provide exactly 2 .wasm files");
-                
-                return 1;
+
+                return -1;
             }
 
             var reader1 = new WasmDiffReader(files[0]);
