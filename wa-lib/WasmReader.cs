@@ -1284,7 +1284,7 @@ namespace WebAssemblyInfo
         }
 
         Import[]? imports;
-        uint functionImportsCount = 0;
+        protected uint functionImportsCount = 0;
 
         void ReadImportSection()
         {
